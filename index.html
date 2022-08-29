@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+      <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+    <meta charset="utf-8" />
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+
+    <title></title>
+</head>
+
+<body>
+<div class="container">
+  <h1>Interactive Map</h1>
+  <div class="title">
+    <ul>
+      <li><a class="title-blue" href="#">Pizza shop</a></li>
+      <li><a class="title-red" href="#">Empty lots</a></li>
+      <li><a class="title-green" href="#">Building</a></li>
+      <li><a class="title-yellow" href="#">House</a></li>
+    
+    </ul>    
+  </div>
+
+<img id="map" src="361.png" usemap="#image-map">
+
+<map name="image-map">
+    <area id="green" target="_blank" alt="greenpizza" title="greenpiza" href="" coords="614,239,591,251,635,291,672,273,715,297,695,314,734,344,801,310,833,331,922,286,875,257,908,224,874,179,766,110,720,134,675,102,628,58,613,135,584,153,607,181,625,190,616,194,619,201,550,250,571,270,569,281,578,278" shape="poly">
+    <area id="yellow" target="_blank" alt="emptyyellow" title="emtpyyellow" href="" coords="268,533,316,565,602,396,566,353,537,355,526,325,509,301,481,273,453,281,437,246,461,199,504,175,610,112,615,74,615,49,594,43,508,87,484,81,453,92,443,126,428,147,23,383" shape="poly">
+    <area id="red" target="_blank" alt="redbuilding" title="redbuilding" href="" coords="690,512,648,534,692,577,735,559,763,576,729,599,770,615,938,525,893,491,894,402,841,359,819,331,786,332,768,328,757,351,737,349,733,358,702,389,688,398" shape="poly">
+    <area id="blue" target="_blank" alt="bluehouse" title="bluehouse" href="" coords="376,659,610,807,762,716,743,693,749,672,733,632,708,670,708,654,710,639,697,602,586,549,530,575,505,564,480,567,462,594,453,624,433,632,410,612,384,606,370,619,382,648" shape="poly">
+</map>
+
+
+
+</body>
+</html>
+
